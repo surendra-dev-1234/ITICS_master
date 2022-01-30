@@ -265,6 +265,7 @@ public class ITICSController {
 		if(Id==null) {
 		comprepoService.saveCompanyReportsData(companyreports);
 		}
+		System.out.println("Saving");
 		classService.saveClassificationData(classificationList);
 	}
 }
